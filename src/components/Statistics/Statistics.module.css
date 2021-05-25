@@ -1,0 +1,41 @@
+.statistics {
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.title {
+  background-color: rgb(22, 255, 1);
+  text-align: center;
+  color: #0a0a0a;
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  padding: 20px;
+  text-transform: uppercase;
+}
+
+.statList {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  border-collapse: collapse;
+}
+
+.item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  background-color: rgb(49, 238, 32);
+  border: 1px solid rgb(66, 66, 66);
+  padding: 10;
+}
+
+.label {
+  padding: 5px;
+  font-size: 12px;
+  color: rgb(0, 0, 0);
+}
